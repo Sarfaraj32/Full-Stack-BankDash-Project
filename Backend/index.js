@@ -34,7 +34,7 @@ const PORT = process.env.PORT || 3000;
 
 // This is the connection string for MongoDB Atlas cluster
 mongoose
-  .connect(process.env.DBC_URL, {
+  .connect(process.env.DB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
