@@ -24,22 +24,22 @@ const MonthlyRevenueData = require("./models/MonthlyRevenueData");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose
-  .connect(process.env.DB_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => console.log("Connected to MongoDB"))
-  .catch((err) => console.error("MongoDB connection error:", err));
-
-// This is the connection string for MongoDB Atlas cluster
 // mongoose
-//   .connect(process.env.DBC_URL, {
+//   .connect(process.env.DB_URL, {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true,
 //   })
 //   .then(() => console.log("Connected to MongoDB"))
 //   .catch((err) => console.error("MongoDB connection error:", err));
+
+// This is the connection string for MongoDB Atlas cluster
+mongoose
+  .connect(process.env.DBC_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("MongoDB connection error:", err));
 
 // Middleware
 app.use(cors());
