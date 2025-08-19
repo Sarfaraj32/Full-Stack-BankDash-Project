@@ -15,11 +15,6 @@ InvestmentChart - done as InvestmentChartData.js
 DebitCreditOverview - DebitCreditOverviewData.js
 
 ```
-
-````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-Project
-````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-
 # Full-Stack Bank Dashboard
 
 A responsive, data-driven banking dashboard built with a full-stack JavaScript architecture, featuring Node.js, Express, MongoDB for the backend and modern frontend data visualizations.
