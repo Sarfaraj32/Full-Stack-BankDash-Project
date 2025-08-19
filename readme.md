@@ -23,7 +23,7 @@ A responsive, data-driven banking dashboard built with a full-stack JavaScript a
 
 ##  Live Demo
 
-Experience the live version here: [BankDash Live](skbankdash32.netlify.app)
+Experience the live version here: skbankdash32.netlify.app
 
 ---
 
